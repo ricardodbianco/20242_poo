@@ -1,0 +1,8 @@
+versionamento semântico
+
+MAJOR.MINOR.PATCH
+2.34.1
+
+MAJOR: quando a MAJOR sobe, significa que há uma quebra na versão (break change) subiu a MAJOR, a MINOR volta a 0
+MINOR: sobe quando novas features são implementadas (novas funcionalidades) subiu a MINOR, a PATCH volta a 0
+PATCH: sobe quando correções de bugs, refatoração de código, etc; são realizadas
