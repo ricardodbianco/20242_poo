@@ -2,13 +2,14 @@ import java.util.Random;
 public class JogoV2 {
     public static void main(String[] args) throws Exception {
         System.out.println("Começando...");
-        var cacador = new Personagem();
+        var cacador = new Personagem(); //var é operador de inferência de tipo
         cacador.nome = "Ricardo";
         var soneca = new Personagem(2,4,10);
         soneca.nome = "Ursinho Pooh";
         var fominha = new Personagem(6,10,2);
         fominha.nome = "Scooby";
         var gerador = new Random();
+        //loop infinito
         while (true) {
             var acaoDoCacador = gerador.nextInt(3)+1;
             switch(acaoDoCacador){
@@ -62,4 +63,3 @@ public class JogoV2 {
 
 
 
-        //loop infinito//var é operador de inferência de tipo
